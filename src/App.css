@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.copy-h1-alt {
+  font-family: GT Alpina,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+  font-size: 40px;
+  line-height: .9;
+  letter-spacing: -.05em;
+  font-weight: 100;
+}
+
+.subText{
+  color:#230b59;
+}
+
+
+@media (min-width: 1140px){
+  .copy-h1-alt {
+    font-size: 60px;
+    line-height: .9;
+    letter-spacing: -.05em;
+  }
+}
